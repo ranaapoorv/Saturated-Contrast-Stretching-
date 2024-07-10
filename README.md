@@ -9,8 +9,8 @@ First of all, it is necessary to import all the libraries as well as the image w
   import cv2
   import numpy as np
 
-# Load the image
+> Load the image
   image = cv2.imread('your_image.jpg')
 
-We will also create a histogram of pixel values in the image, using the code piece 
+>We will also create a histogram of pixel values in the image, using the code piece 
   plt.hist(img.ravel(), bins=655, range=(1, img.ravel().max()))
