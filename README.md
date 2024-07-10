@@ -5,7 +5,7 @@ The proposed solution lies in a comprehensive understanding and strategic manipu
 Technique for improving the contrast of an image by stretching the pixel values to the full range of possible values (0 to 255). The operation works by first finding the minimum and maximum values of the image. The minimum value is used as the lower threshold value and the maximum value is used as the upper threshold value. The pixels that are below the lower threshold value are set to the lower threshold value. The pixels that are above the upper threshold value are set to the upper threshold value. The pixels that are between the lower and upper threshold values are linearly mapped to the range 0 to 255. In this project, the tool that we have used for image processing is OpenCV. It is a open source library which is used to adjust the contrast of the image as well as change the dimensions of the image like stretching it.
 Given is the process with which we have implemented OpenCV:
 
-First of all, it is necessary to import all the libraries as well as the image we will be working on. Using the code
+>First of all, it is necessary to import all the libraries as well as the image we will be working on. Using the code
   import cv2
   import numpy as np
 
